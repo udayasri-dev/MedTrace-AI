@@ -1,0 +1,6 @@
+{
+  "name": "MedTrace - AI Health Assistant with Long-Term Context",
+  "description": "Connecting today's health with yesterday's story. An AI health assistant with long-term memory that connects relevant past health history with your current conversation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

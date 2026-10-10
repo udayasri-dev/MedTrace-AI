@@ -1,0 +1,92 @@
+[
+  {
+    "id": "mem-seed-1",
+    "patientId": "ananya-rao",
+    "category": "symptoms",
+    "title": "Recurring post-meal epigastric discomfort",
+    "content": "Patient reported burning stomach discomfort in upper abdomen occurring 30-45 minutes after eating, exacerbated by spicy and acidic foods. Described as a dull ache lasting 1-2 hours.",
+    "dateContext": "May 2026 (Approx. 4 months ago)",
+    "createdAt": "2026-05-14T10:30:00.000Z",
+    "source": "user_conversation",
+    "isUserProvided": true,
+    "tags": [
+      "stomach",
+      "epigastric",
+      "burning",
+      "post-prandial",
+      "gastric"
+    ],
+    "metadata": {
+      "trigger": "spicy foods",
+      "frequency": "3-4 times per week"
+    }
+  },
+  {
+    "id": "mem-seed-2",
+    "patientId": "ananya-rao",
+    "category": "reports",
+    "title": "Abdominal Ultrasound: Mild Antral Gastritis, Gallbladder Normal",
+    "content": "Ultrasound scan confirmed mild gastric mucosal irritation (antral gastritis). Gallbladder normal with no cholelithiasis (gallstones), liver echotexture normal, common bile duct within normal limits (4mm). Bland diet recommended.",
+    "dateContext": "June 18, 2026 (Approx. 3 months ago)",
+    "createdAt": "2026-06-18T14:15:00.000Z",
+    "source": "clinical_report",
+    "isUserProvided": false,
+    "tags": [
+      "ultrasound",
+      "gastritis",
+      "mucosa",
+      "gallbladder normal",
+      "stomach report"
+    ],
+    "metadata": {
+      "facility": "Metro Health Diagnostic Center",
+      "findings": "Antral gastritis"
+    }
+  },
+  {
+    "id": "mem-seed-3",
+    "patientId": "ananya-rao",
+    "category": "medications",
+    "title": "Prescribed Dolorex (fictional NSAID / anti-inflammatory) for acute shoulder strain",
+    "content": "Patient was prescribed Dolorex 100mg twice daily with meals for left supraspinatus strain following gym exercise. Took for 2 days.",
+    "dateContext": "July 10, 2026 (Approx. 2 months ago)",
+    "createdAt": "2026-07-10T09:00:00.000Z",
+    "source": "user_conversation",
+    "isUserProvided": true,
+    "tags": [
+      "Dolorex",
+      "NSAID",
+      "shoulder pain",
+      "prescription",
+      "anti-inflammatory"
+    ],
+    "metadata": {
+      "dose": "100mg BID",
+      "duration": "2 days before discontinuation"
+    }
+  },
+  {
+    "id": "mem-seed-4",
+    "patientId": "ananya-rao",
+    "category": "allergies_reactions",
+    "title": "Adverse Drug Reaction to Dolorex: Urticaria (Hives) & Acute Gastric Burning",
+    "content": "Within 48 hours of starting Dolorex, patient developed itchy erythematous hives on forearms and chest, alongside intense stomach irritation and nausea. Prescribing physician advised immediate discontinuation and noted potential NSAID hypersensitivity.",
+    "dateContext": "July 12, 2026 (Approx. 2 months ago)",
+    "createdAt": "2026-07-12T16:45:00.000Z",
+    "source": "user_conversation",
+    "isUserProvided": true,
+    "tags": [
+      "Dolorex",
+      "drug reaction",
+      "allergy",
+      "hives",
+      "urticaria",
+      "NSAID sensitivity",
+      "stomach burning"
+    ],
+    "metadata": {
+      "reactionType": "Urticaria + Gastric flare",
+      "actionTaken": "Discontinued immediately"
+    }
+  }
+]
